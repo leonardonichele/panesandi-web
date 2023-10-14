@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Padaria Panesandi</title>
+  <meta name="title" content="Padaria Panesandi">
+  <meta name="description" content="A Padaria e Confeitaria Panesandi oferece fabricação, venda e distribuição de produtos de panificação, doces/salgados e derivados.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images / Hero images - REVIEW
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpeg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER - REVIEW
+  -->
+
+  <div class="preload" data-preaload>
+      <img src="./assets/images/logocolorized.jpg" width="160" height="50" alt="Panesandi - Home">
+  </div>
+
+  <!-- 
+    - #TOP BAR - APPROVED
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          R. João Aloysio Algayer, 2825 Lomba Grande - NH
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Segunda a sábado das 06:30 as 19:30 / Domingos e feriados 07:30 as 19:30 </span>
+      </div>
+
+      <a href="tel:+5551998449132" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">(51) 99844-9132</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:panesandi@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">panesandi@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="160" height="50" alt="Panesandi - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="160" height="50" alt="Panesandi - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Início</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Especialidades</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">História</span>
+            </a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Fale Conosco</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Nosso local</p>
+
+          <address class="body-4">
+            R. João Aloysio Algayer, 2825 <br>
+            Lomba Grande - NH
+          </address>
+
+          <p class="body-4 navbar-text">Segunda a sábado das 06:30 as 19:30<br>Domingos e feriados 07:30 as 19:30</p>
+
+          <a href="mailto:panesandi@gmail.com" class="body-4 sidebar-link">panesandi@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Encomendas</p>
+
+          <a href="tel:+5551998449132" class="body-1 contact-number hover-underline">
+            (51) 99844-9132
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="https://wa.me/5551998449132?text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20pedido" class="btn btn-secondary">
+        <span class="text text-1">Realize sua encomenda</span>
+
+        <span class="text text-2" aria-hidden="true">Realize sua encomenda</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">01</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Sabores Inesquecíveis
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Onde o aroma do pão fresco e a doçura das sobremesas artesanais encantam seus sentidos a cada mordida.
+            </p>
+
+            <a href="https://www.instagram.com/panesandi/" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Instagram</span>
+
+              <span class="text text-2" aria-hidden="true">Instagram</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">02</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              O Ponto de Encontro da Comunidade
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Estamos no coração da Lomba Grande, prontos para atender a todos os seus desejos de confeitaria.<br>Venha nos visitar e desfrute de produtos frescos e saborosos.
+            </p>
+
+            <a href="https://wa.me/5551998449132?text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20fazer%20um%20pedido" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Contate-nos</span>
+
+              <span class="text text-2" aria-hidden="true">Contate-nos</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">03</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Raízes da Família e Tradição
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Tradição e família são mais do que palavras - são os alicerces da nossa identidade.
+              Junte-se a nós para uma experiência que celebra o melhor da vida e da comida.
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Venha Conosco</span>
+
+              <span class="text text-2" aria-hidden="true">Venha Conosco</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+      </section>
+
+      <!-- 
+        - #SERVICES
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Opções</p>
+
+          <h2 class="headline-1 section-title">Confira nossa variedade de opções</h2>
+
+          <p class="section-text">
+            Com uma ampla seleção de pães frescos, bolos saborosos, doces artesanais e opções salgadas, temos algo para agradar a todos os paladares.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="#">Confeitaria</a>
+                  </h3>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="#">Cafeteria</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="#">Coffee-Break</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Nossa história</p>
+
+            <h2 class="headline-1 section-title">Todo sabor tem família.</h2>
+
+            <p class="section-text">
+              A história da Família Sandi é uma história de tradição, paixão pela panificação e
+              uma forte união em busca da inovação no dia-a-dia.
+              Guiados pelo espírito empreendedor, nós criamos e aprimoramos as receitas, adaptando-as às demandas em constante evolução dos clientes,
+              mas sempre mantendo a qualidade e o sabor autêntico que são a marca registrada da nossa padaria.
+            </p>
+
+            <div class="contact-label">Venha nos conhecer, faça sua encomenda.</div>
+
+            <a href="tel:+5551998449132" class="body-1 contact-number hover-underline">(51) 99844-9132</a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/hero-slider-2.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Especialidades</p>
+
+          <h2 class="headline-1 section-title text-center">Confira um pouco do nosso menu...</h2>
+      </section>
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Especiais da Casa #01</p>
+
+            <h2 class="headline-1 section-title">Doçuras</h2>
+
+            <p class="section-text">
+              Um exemplo é o nosso brownie de cacau!<br>
+              Cada mordida é uma explosão de sabor rico e reconfortante que aquece a alma. Feito com cacau de alta qualidade, nossa receita secreta combina a perfeição do chocolate com a textura ideal,
+              resultando em um brownie incrivelmente macio por dentro e com uma casquinha crocante por fora.
+            </p>
+
+          </div>
+        </div>
+
+      </section>
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner-2.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Especiais da Casa #02</p>
+
+            <h2 class="headline-1 section-title">Salgados</h2>
+
+            <p class="section-text">
+              Nossa seleção de salgadinhos é a manifestação perfeita da maestria culinária e do amor pelos alimentos. Leves e delicados, 
+              desintegram-se em camadas suculentas, revelando recheios deliciosos que variam em diversas opções, atendendo a todos os gostos.
+            </p>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner-3.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Especiais da Casa #03</p>
+
+            <h2 class="headline-1 section-title">Bolos</h2>
+
+            <p class="section-text">
+              Em nossa padaria, os bolos são verdadeiras obras-primas de sabor e arte, feitos com paixão e dedicação.
+              Cada fatia é uma experiência extraordinária que celebra a doçura da vida e o amor pela boa comida.
+            </p>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center">
+        <div class="container">
+
+          <h2 class="headline-1 section-title text-center">O que dizem sobre nós?</h2>
+          <br>
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Local aconchegante, com variedades de doces/salgados, e com um ótimo atendimento. Parabéns 👏
+          </p>
+
+          <br>
+          <div class="quote">”</div>
+
+          <div class="profile">
+            <p class="label-2 profile-name">Cliente Panesandi</p>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container-final">
+      <h1>Padaria e Confeitaria Panesandi - Todos os direitos reservados. CNPJ: 00.000.000/0001-00</h1>
+    </div>
+  </footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
